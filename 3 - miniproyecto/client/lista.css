@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    color:darkcyan;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: beige;
+}
+
+.tachado {
+    text-decoration: line-through grey ;
+}
+
+#lista {
+   background-color: white;
+   max-width: 50%;
+   margin: 0 auto; 
+   font-size: 2em;
+   font-weight: lighter;
+   list-style: none;
+   padding: 0px;
+   border-radius: 7px;
+}
+
+li {
+    border-bottom: 1px solid lightgrey  ; 
+    padding: 0.25em; 
+}
+
+li button {
+    float: right;
+}
+
+#formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Aprovecha el 100% de la altura de la ventana */
+}
+
+#formAgregar {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px #888;
+    text-align: center;
+}
